@@ -4,18 +4,21 @@ class Student:
         self._age = age
         self._grade = grade
 
+    @property
     def name(self):
         
         return {self._name}
     
     @name.setter        # Name >= 3 chars no spaces or special chars; Title format
 
+    @property
     def age(self):
         
         return {self._age}
     
     @age.setter         # Age is an int type; age > 11 and age < 18
 
+    @property
     def grade(self):
         
         return {self._grade}
